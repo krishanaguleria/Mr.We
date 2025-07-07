@@ -38,7 +38,7 @@ foobar.pluralize('goose')
 foobar.singularize('')
 ```
 
-## Contributing
+# Contributing
 [Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[# Unit test / coverage reports
@@ -77,9 +77,9 @@ share/python-wheels/
 *.egg]
 MANIFEST
 
-## License
+# License
 ["client_id=APP-9ODKLZEWMCKHX32R&client_secret=a47a773a-4985-4e6a-95f7-4f34bb300fb9"]
-& "grant_type=authorization_code&redirect_uri=" (https://www.wiserempire.com"URI&code="https://www.wiserempire.com")",,
+& "grant_type=authorization_code&redirect_uri=" (https://www.wiserempire.com"URI&code="https://www.wiserempire.com")",
 
 
 
