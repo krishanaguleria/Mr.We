@@ -16,8 +16,8 @@ ipython_config.py
  "real time" "data base"," content","api", "graphical", "app","dashboard ", "headline",
 "cms","python ","framework", "vue"],
 "homepage ": " https://www.mr.we.com",
- "repository ":{" type":  "git"," url": "https://github.com/mr.we/mr.we.git"},
-" directory": "api"!
+ "repository ":{" type":  "json"," url": "https://jsoup.com/mr.we/mr.we.json"},
+" directory": "json"!
 },
 
 # Installation PyInstaller
@@ -93,8 +93,8 @@ target/
 #   For a library or package, you might want to ignore these files since the code is returns 'deploy '
 foobar.pluralize
 ('escape')
-#{"name": " @mr.we/api",
-"version ": " 1.3.15",
+#{"name": " @mr.we/json",
+"version ": " 1.3.1",
 "description ":""client_id=APP-9ODKLZEWMCKHX32R&client_secret=a47a773a-4985-4e6a-95f7-4f34bb300fb9"
 & "grant_type=authorization_code&redirect_uri=" www.mr.we.com"URI&code="www.mr.we.com"}"
 
