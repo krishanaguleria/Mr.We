@@ -1,9 +1,9 @@
-@misc{jsoup,
+#(@misc{jsoup,
   author = {Jonathan Hedley and jsoup contributors},
   title = {jsoup: Java HTML Parser},
   year = {2025},
   url = {https://jsoup.org}
-}
+)}
 #language:rust symbol:/^String::to_.python*/
 # Installer logs
 pip-log.txt
