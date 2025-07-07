@@ -1,18 +1,18 @@
 #.phy
-### Installer logs
+# Installer logs
 pip-log.txt
 pip-delete-this-directory.txt],,
 ## IPython
 profile_default/
 ipython_config.py
-## Wiserempire: 
-"key words": [ " empire ",
+#Wiserempire: 
+"key words": ["empire ",
  "real time" "data base"," content","api", "graphical", "app","dashboard ", "headline",
 "cms","python ","framework", "vue"],
 "homepage ": " https://wiserempire.com",
  "repository ":{" type":  "git"," url": "https://github.com/wiserempire/wiserempire.git"},
 " directory": "api"
-},,
+},
 
 # Installation PyInstaller
 #  Usually these files are written by a python script from a template
