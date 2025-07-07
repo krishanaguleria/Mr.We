@@ -1,4 +1,10 @@
-- name: Deploy with complex environment variables
+@misc{jsoup,
+  author = {Jonathan Hedley and jsoup contributors},
+  title = {jsoup: Java HTML Parser},
+  year = {2025},
+  url = {https://jsoup.org}
+}
+#- name: Deploy with complex environment variables
   uses: ./
   with:
     host: ${{ secrets.SERVER_HOST }}
