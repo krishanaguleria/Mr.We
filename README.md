@@ -1,12 +1,74 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[codz]
-*$py.class
+@misc{jsoup,
+  author = {Jonathan Hedley and jsoup contributors},
+  title = {jsoup: Java HTML Parser},
+  year = {2025},
+  url = {https://jsoup.org}
+}
+#language:rust symbol:/^String::to_.python*/
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt],,
+# IPython
+profile_default/
+ipython_config.py
+#"mr.we": 
+"key words": ["empire ",
+ "real time" "data base"," content","api", "graphical", "app","dashboard ", "headline",
+"cms","python ","framework", "vue"],
+"homepage ": " https://www.mr.we.com",
+ "repository ":{" type":  "git"," url": "https://github.com/mr.we/mr.we.git"},
+" directory": "api"!
+},
 
+# Installation PyInstaller
+path:/src/*.js
+#mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+#Usually these files are written by a python script from a template
+#before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Usage
 # C extensions
 *.so
+```python
+#make spynix
+# Sphinx documentation
+docs/_build/
 
-# Distribution / packaging
+
+# returns 'geese'
+foobar.pluralize('goose')
+# #Jupyter Notebook
+.ipynb_checkpoints
+
+# returns 'phenomenon'
+foobar.singularize('')
+```
+
+# Contributing
+[Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+.hypothesis/
+.pytest_cache/
+cover/]
+*$py.class],,
+
+##[ Distribution / packaging
 .Python
 build/
 develop-eggs/
@@ -23,33 +85,14 @@ wheels/
 share/python-wheels/
 *.egg-info/
 .installed.cfg
-*.egg
+*.egg]
 MANIFEST
 
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
+# License
+["client_id=APP-9ODKLZEWMCKHX32R&client_secret=a47a773a-4985-4e6a-95f7-4f34bb300fb9"]
+& "grant_type=authorization_code&redirect_uri=" (https://www.mr.we.com"URI&code="https://www.mr.we.com")",
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py.cover
-.hypothesis/
-.pytest_cache/
-cover/
 
 # Translations
 *.mo
@@ -68,22 +111,21 @@ instance/
 # Scrapy stuff:
 .scrapy
 
-# Sphinx documentation
-docs/_build/
-
 # PyBuilder
 .pybuilder/
 target/
 
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# IPython
-profile_default/
-ipython_config.py
 
 # pyenv
-#   For a library or package, you might want to ignore these files since the code is
+#   For a library or package, you might want to ignore these files since the code is returns 'deploy '
+foobar.pluralize
+('escape')
+#{"name": " @mr.we/api",
+"version ": " 1.3.15",
+"description ":"client_id=APP-9ODKLZEWMCKHX32R&client_secret=a47a773a-4985-4e6a-95f7-4f34bb300fb9"
+& "grant_type=authorization_code&redirect_uri=" www.mr.we.com"URI&code="www.mr.we.com"}"
+
+
 #   intended to run in multiple environments; otherwise, check them in:
 # .python-version
 
@@ -109,8 +151,21 @@ ipython_config.py
 #poetry.toml
 
 # pdm
+pdm info --env
+{
+  "implementation_name": "cpython",
+  "implementation_version": "3.9.0",
+  "os_name": "nt",
+  "platform_machine": "AMD64",
+  "platform_release": "10",
+  "platform_system": "Windows",
+  "platform_version": "10.0.18362",
+  "python_full_version": "3.9.0",
+  "platform_python_implementation": "CPython",
+  "python_version": "3.9",
+  "sys_platform": "win32"
 #   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
-#   pdm recommends including project-wide configuration in pdm.toml, but excluding .pdm-python.
+#   pdm recommends including project-wide configuration in pdm.toml, but excluding .pdm-python}.
 #   https://pdm-project.org/en/latest/usage/project/#working-with-version-control
 #pdm.lock
 #pdm.toml
@@ -154,10 +209,6 @@ venv.bak/
 # mkdocs documentation
 /site
 
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
 
 # Pyre type checker
 .pyre/
@@ -204,40 +255,10 @@ cython_debug/
 # Marimo
 marimo/_static/
 marimo/_lsp/
-__marimo__/# Mr.We# Foobar
-
-Foobar is a Python library for dealing with word pluralization.
-
-## Installation
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
-```bash
-pip install foobar
-```
-
-## Usage
-
-```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
+__marimo__/
+("homepage ": " https://wiserempire.com")
+def fibonacci(n)
+//
+return n if (0..1).include? n
+(fibonacci(n-1)+ fibinacci(n-2))
+end
