@@ -14,19 +14,18 @@ ipython_config.py
 " directory": "api"
 },,
 
-## Installation
-[PyInstaller
+# Installation PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
 
-## Usage
+# Usage
 # C extensions
 *.so
 ```python
 
-## Sphinx documentation
+# Sphinx documentation
 docs/_build/
 
 
