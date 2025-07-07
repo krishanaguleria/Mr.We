@@ -16,8 +16,12 @@ ipython_config.py
 
 # Installation PyInstaller
 path:/src/*.js
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+#mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+#Usually these files are written by a python script from a template
+#before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
 
@@ -25,7 +29,7 @@ path:/src/*.js
 # C extensions
 *.so
 ```python
-
+#make spynix
 # Sphinx documentation
 docs/_build/
 
@@ -199,10 +203,6 @@ venv.bak/
 # mkdocs documentation
 /site
 
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
 
 # Pyre type checker
 .pyre/
