@@ -26,29 +26,9 @@ path:/src/*.js
 .mypy_cache/
 .dmypy.json
 dmypy.json
-#Usually these files are written by a python script from a template
-#before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
-
 # Usage
 # C extensions
 *.so
-```python
-#make spynix
-# Sphinx documentation
-docs/_build/
-
-
-# returns 'geese'
-foobar.pluralize('goose')
-# #Jupyter Notebook
-.ipynb_checkpoints
-
-# returns 'phenomenon'
-foobar.singularize('')
-```
-
 # Contributing
 [Byte-compiled / optimized / DLL files
 __pycache__/
@@ -68,7 +48,7 @@ coverage.xml
 cover/]
 *$py.class],,
 
-##[ Distribution / packaging
+#Distribution / packaging
 .Python
 build/
 develop-eggs/
@@ -256,7 +236,7 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
-("homepage ": " https://wiserempire.com")
+("homepage ": " https://mr.we.com")
 def fibonacci(n)
 //
 return n if (0..1).include? n
