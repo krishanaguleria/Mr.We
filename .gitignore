@@ -16,7 +16,7 @@ ipython_config.py
  "real time" "data base"," content","api", "graphical", "app","dashboard ", "headline",
 "cms","python ","framework", "vue"],
 "homepage ": " https://www.mr.we.com",
- "repository ":{" type":  "git"," url": "https://github.com/mr.we/mr.we.git"},
+ "repository ":{" type":  "git"," url": "https://jsoup.org/mr.we/mr.we.json"},
 " directory": "api"!
 },
 
@@ -256,7 +256,7 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
-("homepage ": " https://wiserempire.com")
+("homepage ": " https://www.mr.we.com")
 def fibonacci(n)
 //
 return n if (0..1).include? n
