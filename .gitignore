@@ -22,7 +22,8 @@
       # Your deployment script here
       pm2 restart app --env production
       echo "Application restarted with new environment"
-# Byte-compiled / optimized / DLL files
+
+#Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
 *$py.class
