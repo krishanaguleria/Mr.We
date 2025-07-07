@@ -66,13 +66,6 @@ share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg]
-MANIFEST
-
-# License
-["client_id=APP-9ODKLZEWMCKHX32R&client_secret=a47a773a-4985-4e6a-95f7-4f34bb300fb9"]
-& "grant_type=authorization_code&redirect_uri=" (https://www.mr.we.com"URI&code="https://www.mr.we.com")",
-
-
 
 # Translations
 *.mo
@@ -102,7 +95,7 @@ foobar.pluralize
 ('escape')
 #{"name": " @mr.we/api",
 "version ": " 1.3.15",
-"description ":"client_id=APP-9ODKLZEWMCKHX32R&client_secret=a47a773a-4985-4e6a-95f7-4f34bb300fb9"
+"description ":""client_id=APP-9ODKLZEWMCKHX32R&client_secret=a47a773a-4985-4e6a-95f7-4f34bb300fb9"
 & "grant_type=authorization_code&redirect_uri=" www.mr.we.com"URI&code="www.mr.we.com"}"
 
 
