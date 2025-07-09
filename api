@@ -1,4 +1,17 @@
-flan_v2
+#oasst1_5921
+[
+{
+"content": "Create a snippet of Terraform HCL code that create an AWS autoscaling group, and an ALB in front to expose an application to internet.",
+"role": "user"
+},
+{
+"content": "Sure, here's an example Terraform HCL code that creates an AWS Autoscaling Group and an Application Load Balancer to expose an application to the internet:\n``` \n# Configure the AWS provider\nprovider \"aws\" {\n region = \"us-east-1\"\n}\n\n# Create a security group to allow traffic to the ALB\nresource \"aws_security_group\" \"alb_sg\" {\n name_prefix = \"alb_sg\"\n ingress {\n from_port = 80\n to_port = 80\n protocol = \"tcp\"\n cidr_blocks = [\"0.0.0.0/0\"]\n }\n}\n\n# Create an ALB and target group\nresource \"aws_lb\" \"alb\" {\n name = \"example-alb\"\n internal = false\n load_balancer_type = \"application\"\n\n subnets = [\"subnet-12345678\", \"subnet-87654321\"]\n\n security_groups = [aws_security_group.alb_sg.id]\n\n tags = {\n Environment = \"production\"\n }\n}\n\nresource \"aws_lb_target_group\" \"target_group\" {\n name = \"example-target-group\"\n port = 80\n protocol = \"HTTP\"\n vpc_id = \"vpc-12345678\"\n\n health_check {\n path = \"/health\"\n }\n\n tags = {\n Environment = \"production\"\n }\n}\n\n# Create an autoscaling group\nresource \"aws_launch_configuration\" \"launch_configuration\" {\n name_prefix = \"example-lc-\"\n image_id = \"ami-12345678\"\n instance_type = \"t2.micro\"\n\n # Other settings here (e.g. security groups, userdata, etc.)\n}\n\nresource \"aws_autoscaling_group\" \"autoscaling_group\" {\n name = \"example-asg\"\n launch_configuration = aws_launch_configuration.launch_configuration.id\n target_group_arns = [aws_lb_target_group.target_group.arn]\n health_check_type = \"EC2\"\n min_size = 1\n max_size = 3\n desired_capacity = 2\n vpc_zone_identifier = [\"subnet-12345678\", \"subnet-87654321\"]\n termination_policies = [\"Default\"]\n wait_for_capacity_timeout = \"10m\"\n\n tags = {\n Environment = \"production\"\n }\n}\n``` \nNote that you will need to customize the settings for your specific use case (e.g. specify your own AMI ID, VPC ID, subnet IDs, etc.). This is just an example to give you an idea of how to create an autoscaling group with an ALB in Terraform.",
+"role": "assistant"
+}
+]
+
+ai2-adapt-dev/oasst1_converted
+#flan_v2
 flan_v2_33
 [
 {
